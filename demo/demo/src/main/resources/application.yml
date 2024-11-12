@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: demo
+  datasource:
+    url: mysql://127:0:0:1:3306/userdb
+    username: root
+    password: xxxx
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  redis:
+    host: redis-XXX.c123.ap-XXX-1-1.ec2.redns.redi-cloud.com
+    port: 14672
+    password: XXXX
+
